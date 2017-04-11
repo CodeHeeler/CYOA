@@ -1,0 +1,9 @@
+{% extends 'cyoa/base.html' %}
+{% block content %}
+Thing <br>
+{{page.text}}
+
+{% for choice in choices %}
+<a href={{choice.to_page_url}} >{{choice.text}}</a>
+{% endfor %}
+{% endblock %}
