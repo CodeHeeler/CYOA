@@ -1,1 +1,1 @@
-web: gunicorn cyoa_app.wsgi --log-file -
+web: gunicorn cyoa_project.wsgi --log-file -
