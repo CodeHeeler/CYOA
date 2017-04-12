@@ -19,6 +19,5 @@ from cyoa_app import views
 
 urlpatterns = [
     url(r'^page/(?P<page_id>[0-9]+)', views.page),
-    url(r'^cyoa/', views.page),
     url(r'^admin/', admin.site.urls),
 ]

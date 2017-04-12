@@ -1,0 +1,16 @@
+body {
+  background-color: lightgrey;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  margin: 2px;
+}
+/*
+.well {
+  padding: 7px;
+}*/
