@@ -26,7 +26,9 @@
       <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-          <img src="{% static {{page.image}} %}" class="img-fluid" alt="Responsive image">
+          {% with 'images/'|add:page.image as image_static %}
+            <img src="{% static image_static %}" class="img-fluid" alt="Responsive image">
+          {% endwith %}
         </div>
         <div class="col-sm-3"></div>
       </div>
